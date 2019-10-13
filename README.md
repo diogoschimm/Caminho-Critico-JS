@@ -5,4 +5,4 @@ Exemplo de Projeto Javascript - Caminho Crítico com Canvas
 
 Para visualizar o projeto em funcionamento utilize o seguinte link abaixo:
 
-http://ccjs.diogoschimm.eti.br/
+<a href="http://ccjs.diogoschimm.eti.br/" target="_blank">http://ccjs.diogoschimm.eti.br/</a>
