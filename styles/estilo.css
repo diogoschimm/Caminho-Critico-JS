@@ -1,0 +1,50 @@
+
+@font-face { 
+    font-family: 'FontAwesome'; 
+    src: url('../fonts/fontawesome-webfont.eot?v=4.6.1'); 
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.1') format('embedded-opentype'),
+         url('../fonts/fontawesome-webfont.woff2?v=4.6.1') format('woff2'),
+         url('../fonts/fontawesome-webfont.woff?v=4.6.1') format('woff'),
+         url('../fonts/fontawesome-webfont.ttf?v=4.6.1') format('truetype'),
+         url('../fonts/fontawesome-webfont.svg?v=4.6.1#fontawesomeregular') format('svg'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+* { border-style: none; border-color: inherit; border-width: 0; padding: 0; margin-left: 0; margin-right: 0; margin-top: 0; }
+
+
+body { border: 0; padding: 0; margin: 0; background: #F7F7F7; font-family: Arial; }
+body.semSelecao { -moz-user-select: none; -webkit-user-select: none; user-select: none; }
+
+/*Caminho Crítico*/
+.semOverflow { overflow: hidden; }
+.comOverflow { overflow: auto; }
+.container .centro .areaTrabalho .cv { height: 600px; padding: 0; overflow: hidden; border: 5px solid #CCC; box-sizing: border-box; background: #EEE; }
+.container .centro .areaTrabalho .cv.fullScreen { position: fixed; height: 100%; width: 100%; z-index: 1050; top: 0; left: 0; margin-left: 0; margin-top: 0; border: 5px solid #333; }
+
+.barraFerramentaCC { padding: 5px; background: #F5F5F5; border-bottom: 1px solid #CCC; height: 40px; box-sizing: border-box; }
+.barraFerramentaCC ul { padding: 0; margin: 0; border: 0; list-style: none; list-style-position: inside; }
+.barraFerramentaCC ul li { float: left; margin-right: 5px; }
+.barraFerramentaCC ul li.novoBloco { margin-left: 20px; }
+.barraFerramentaCC ul li a { display: block; padding: 5px 8px; background: #FFFFFF; font-size: 14px; color: #666; border: 1px solid #D7D7D7; }
+.barraFerramentaCC ul li a:hover { border: 1px solid #999; }
+
+.barraFerramentaCC ul li .quadrado { display: block; background: #FFFFFF; font-size: 14px; color: #666; border: 1px solid #D7D7D7; height: 28px; box-sizing: border-box; float: left; }
+.barraFerramentaCC ul li .quadrado:hover { border: 1px solid #999; }
+.barraFerramentaCC ul li .quadrado select { width: 200px; padding: 0; display: block; height: 25px; outline: none; }
+.barraFerramentaCC ul li .quadrado input[type="image"] { outline: none; border: none; box-sizing: border-box; height: 26px; margin: 0; }
+
+
+.barraFerramentaCC ul li.zoomMinus { margin-right: 0; }
+.barraFerramentaCC ul li.zoom { background: #DDD; border: 1px solid #D7D7D7; border-left: 0; border-right: 0; padding: 6px 8px 0 8px; height: 26px; box-sizing: border-box; font-size: 12px; margin: 0; width: 50px; text-align: center; cursor: pointer; }
+
+.container .centro .areaTrabalho .cv .barraFerramentoLateralCC { height: 100%; width: 75px; border-right: 1px solid #CCC; box-sizing: border-box; float: left; padding: 5px; }
+.container .centro .areaTrabalho .cv .barraFerramentoLateralCC ul { padding: 0; margin: 0; border: 0; list-style: none; list-style-position: inside; }
+.container .centro .areaTrabalho .cv .barraFerramentoLateralCC ul li { float: left; margin-right: 1px; box-sizing: border-box; }
+.container .centro .areaTrabalho .cv .barraFerramentoLateralCC ul li.novoBloco { margin-left: 20px; border-bottom: 1px solid #CCC; }
+.container .centro .areaTrabalho .cv .barraFerramentoLateralCC ul li a { display: block; padding: 5px 8px; background: #FFFFFF; font-size: 14px; color: #666; border: 1px solid #D7D7D7; }
+.container .centro .areaTrabalho .cv .barraFerramentoLateralCC ul li a:hover { border: 1px solid #999; }
+
+.container .centro .areaTrabalho .cv .elementoCC { margin-left: 0; }
+.container .centro .areaTrabalho .cv canvas { background: #DDD; }

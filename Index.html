@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="styles/fonte.css" rel="stylesheet" />
+		<link href="styles/estilo.css" rel="stylesheet" />
+		
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/cc.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+	<body>
+		 <div id="cv" class="cv">
+			<div class="barraFerramentaCC">
+				<ul>
+					<li>
+						<a href="#" onclick="return _CanvasCC.FullScreen()" title="Exibir em Tela Cheia">
+							<i class="fa fa-arrows-alt"></i>
+						</a>
+					</li>
+					<li style="display: none;">
+						<a href="#" onclick="return _CanvasCC.NoFullScreen()" title="Exibir em Tela Normal">
+							<i class="fa fa-compress"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" onclick="return _CanvasCC.Refresh()" title="Atualizar">
+							<i class="fa fa-refresh"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" onclick="return _CanvasCC.MoveScreen()" title="Bloquear movimentação">
+							<i class="fa fa-unlock-alt"></i>
+						</a>
+					</li>
+
+					<li class="novoBloco zoomMinus">
+						<a href="#" onclick="return _CanvasCC.ZoomMinus()" title="Menos Zoom">
+							<i class="fa fa-search-minus"></i>
+						</a>
+					</li>
+					<li class="zoom" onclick="return _CanvasCC.ZoomReset()">100%</li>
+					<li>
+						<a href="#" onclick="return _CanvasCC.ZoomPlus()" title="Mais Zoom">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</li> 
+				</ul>
+			</div>  
+			<div class="elementoCC">
+				<canvas id="CanvasCC" width="500" height="300"></canvas>
+			</div>
+		</div>
+	</body>
+</html>
